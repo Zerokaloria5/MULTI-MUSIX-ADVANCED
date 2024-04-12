@@ -144,8 +144,8 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `?help`, type: ActivityType.Watching }],
-      status: 'idle',
+      activities: [{ name: `?help ?play`, type: ActivityType.competing }],
+      status: 'online',
     });
   }, 2000); 
 });
