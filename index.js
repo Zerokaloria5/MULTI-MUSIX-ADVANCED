@@ -144,7 +144,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `FurYxTest.gg`, type: ActivityType.Watching }],
+      activities: [{ name: `?help`, type: ActivityType.Watching }],
       status: 'idle',
     });
   }, 2000); 
